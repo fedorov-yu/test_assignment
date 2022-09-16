@@ -1,5 +1,4 @@
 import django_filters
-from Tools.scripts.make_ctype import method
 from django.db.models import F, IntegerField, ExpressionWrapper, FloatField
 
 from app.models import MortgageOffer

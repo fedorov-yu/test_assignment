@@ -41,3 +41,12 @@
 2) [DRF](https://www.django-rest-framework.org/). Обязательно
 3) [django-filters](https://django-filter.readthedocs.io/en/stable/guide/usage.html). По желанию
 
+
+
+## Запуск API
+1) git clone https://github.com/fedorov-yu/test_assignment.git
+2) pip install -r requirements.txt
+3) python .\manage.py makemigrations
+4) docker build -t api .
+5) docker run --name <some_name> -p 8000:8000 -d api
+6) docker stop <some_name>
